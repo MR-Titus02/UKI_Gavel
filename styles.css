@@ -71,3 +71,31 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Smaller heading on mobile */
+    }
+
+    .btn {
+        padding: 12px 20px; /* Smaller padding for buttons */
+        font-size: 14px; /* Smaller font size for buttons */
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically on mobile */
+        gap: 15px; /* Adjust gap for stacked buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; /* Even smaller heading on very small screens */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Further reduce padding for very small screens */
+        font-size: 12px; /* Further reduce font size for very small screens */
+    }
+}
