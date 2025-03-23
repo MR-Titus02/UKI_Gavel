@@ -64,3 +64,7 @@ body::before {
     opacity: 0.1; /* Light opacity for subtle effect */
     z-index: 0; /* Behind the content */
 }
+a {
+    text-decoration: none;
+    color: white;
+}
